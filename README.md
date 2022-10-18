@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/ngame2011/react-todo-challenge/branch/master/graph/badge.svg?token=gtSZLbTtSO)](https://codecov.io/gh/ngame2011/react-todo-challenge)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
