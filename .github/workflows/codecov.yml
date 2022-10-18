@@ -6,10 +6,11 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    name: Test TODO app
 
     strategy:
       matrix:
-        node-version: [12.x, 13.x, 14.x, 15.x]
+        node-version: [14.x, 15.x]
 
     steps:
       - name: Checkout repository
@@ -28,5 +29,5 @@ jobs:
       - name: Run tests
         run: npm run test:coverage
 
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1
+      - name: Upload coverage reports to Codecov with GitHub Action
+        uses: codecov/codecov-action@v3
