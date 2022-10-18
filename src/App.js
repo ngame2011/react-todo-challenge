@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
-import { TodoForm } from './compenents/TodoForm'
-import { TodoList } from './compenents/TodoList'
+import { TodoForm } from './components/TodoForm'
+import { TodoList } from './components/TodoList'
 
 function App() {
     const [todos, setTodos] = useState([])
